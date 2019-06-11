@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "fontcharts";
+  src:url("fonts/fontcharts.eot");
+  src:url("fonts/fontcharts.eot?#iefix") format("embedded-opentype"),
+    url("fonts/fontcharts.woff") format("woff"),
+    url("fonts/fontcharts.ttf") format("truetype"),
+    url("fonts/fontcharts.svg#fontcharts") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "fontcharts" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="chart-"]:before,
+[class*=" chart-"]:before {
+  font-family: "fontcharts" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.chart-area:before {
+  content: "\e000";
+}
+.chart-area-cos:before {
+  content: "\e001";
+}
+.chart-area-exp:before {
+  content: "\e002";
+}
+.chart-area-gause:before {
+  content: "\e003";
+}
+.chart-area-line:before {
+  content: "\e004";
+}
+.chart-area-log:before {
+  content: "\e005";
+}
+.chart-area-multi:before {
+  content: "\e006";
+}
+.chart-area-rec:before {
+  content: "\e007";
+}
+.chart-area-sigmoid:before {
+  content: "\e008";
+}
+.chart-area-sigmoid-inv:before {
+  content: "\e009";
+}
+.chart-area-sin:before {
+  content: "\e00a";
+}
+.chart-bars:before {
+  content: "\e00b";
+}
+.chart-bars-down:before {
+  content: "\e00c";
+}
+.chart-bars-stacked:before {
+  content: "\e00d";
+}
+.chart-bars-stacked-perc:before {
+  content: "\e00e";
+}
+.chart-bars-up:before {
+  content: "\e00f";
+}
+.chart-bubles:before {
+  content: "\e010";
+}
+.chart-columns:before {
+  content: "\e011";
+}
+.chart-columns-down:before {
+  content: "\e012";
+}
+.chart-columns-line:before {
+  content: "\e013";
+}
+.chart-columns-stacked:before {
+  content: "\e014";
+}
+.chart-columns-stacked-perc:before {
+  content: "\e015";
+}
+.chart-columns-stock:before {
+  content: "\e016";
+}
+.chart-columns-up:before {
+  content: "\e017";
+}
+.chart-donut:before {
+  content: "\e018";
+}
+.chart-funnel:before {
+  content: "\e019";
+}
+.chart-gauge:before {
+  content: "\e01a";
+}
+.chart-gauge-donut:before {
+  content: "\e01b";
+}
+.chart-line:before {
+  content: "\e01c";
+}
+.chart-line-cos:before {
+  content: "\e01d";
+}
+.chart-line-exp:before {
+  content: "\e01e";
+}
+.chart-line-gause:before {
+  content: "\e01f";
+}
+.chart-line-log:before {
+  content: "\e020";
+}
+.chart-line-multi:before {
+  content: "\e021";
+}
+.chart-line-rec:before {
+  content: "\e022";
+}
+.chart-line-sigmoid:before {
+  content: "\e023";
+}
+.chart-line-sigmoid-inv:before {
+  content: "\e024";
+}
+.chart-line-sin:before {
+  content: "\e025";
+}
+.chart-line-steps:before {
+  content: "\e026";
+}
+.chart-line-steps-down:before {
+  content: "\e027";
+}
+.chart-line-steps-up:before {
+  content: "\e028";
+}
+.chart-pie:before {
+  content: "\e02b";
+}
+.chart-pyramid:before {
+  content: "\e02c";
+}
+.chart-radar:before {
+  content: "\e02d";
+}
+.chart-scatter-cross:before {
+  content: "\e02e";
+}
+.chart-scatter-dots:before {
+  content: "\e02f";
+}
+.chart-signal-analog:before {
+  content: "\e030";
+}
+.chart-signal-digital:before {
+  content: "\e031";
+}
+.chart-signal-pulse:before {
+  content: "\e032";
+}
+.chart-signal-pulses:before {
+  content: "\e033";
+}
+.chart-signal-saw:before {
+  content: "\e034";
+}
+.chart-signal-step-down:before {
+  content: "\e035";
+}
+.chart-signal-step-up:before {
+  content: "\e036";
+}
+.chart-signal-triangle:before {
+  content: "\e037";
+}
+.chart-signal-wave-in:before {
+  content: "\e038";
+}
+.chart-signal-wave-out:before {
+  content: "\e039";
+}
+.chart-signal-wave-pulse:before {
+  content: "\e03a";
+}
+.chart-spectrum:before {
+  content: "\e03b";
+}
+.chart-spectrum-down:before {
+  content: "\e03c";
+}
+.chart-spectrum-up:before {
+  content: "\e03d";
+}
+.chart-stock:before {
+  content: "\e03e";
+}
+.chart-stock-alt:before {
+  content: "\e03f";
+}
+.chart-logoid:before {
+  content: "\e029";
+}
+.chart-logoid-inv:before {
+  content: "\e02a";
+}
+.chart-line-lisajous:before {
+  content: "\e040";
+}
